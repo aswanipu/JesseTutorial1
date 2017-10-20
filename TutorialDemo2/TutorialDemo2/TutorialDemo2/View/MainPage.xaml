@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TutorialDemo2"
+             x:Class="TutorialDemo2.MainPage">
+    <StackLayout
+        Padding="20">
+        
+        <Button
+            Text="Sqlite"
+            BackgroundColor="Green"
+            TextColor="White"
+            Clicked="Button_Clicked"
+          />
+        <Button
+            Text="GetService"
+            BackgroundColor="Green"
+            TextColor="White"
+            Clicked="Button_Clicked_1"
+            
+          />
+        <Button
+            Text="PostService"
+            BackgroundColor="Green"
+            TextColor="White"
+            Clicked="Button_Clicked_2"
+            
+            
+          />
+
+
+
+    </StackLayout>
+
+
+
+
+</ContentPage>
